@@ -1,6 +1,6 @@
 import "./Footer.css";
 import '@fortawesome/fontawesome-free/css/all.css';
-
+import { Link } from "react-router-dom";
 
 function Footer() {
     
@@ -10,11 +10,11 @@ return (<footer class="footer">
     <h1 class="footer__logo">Company</h1>
     <ul class="nav__ul">
         <li>
-          <a href="#">About us</a>
+          <a href="https://www.hotstar.com/about-us/in">About us</a>
         </li>
 
         <li>
-          <a href="#">Careers</a>
+          <a href="https://careers.hotstar.com/">Careers</a>
         </li>
     </ul>
   </div>
@@ -23,7 +23,7 @@ return (<footer class="footer">
     <h1 class="footer__logo">View Website in</h1>
     <ul class="nav__ul">
         <li>
-          <a href="#"><i class="fas fa-check icon"></i>English</a>
+        <Link to='/home'><i class="fas fa-check icon"></i>English</Link>
         </li>
     </ul>
   </div>
@@ -32,18 +32,18 @@ return (<footer class="footer">
     <h1 class="footer__logo">Need Help?</h1>
     <ul class="nav__ul">
         <li>
-          <a href="#">Visit Help Center</a>
+          <a href="https://help.hotstar.com/in/en/support/home">Visit Help Center</a>
         </li>
 
         <li>
-          <a href="#">Share Feedback</a>
+          <a href="https://help.hotstar.com/in/en/support/tickets/feedback">Share Feedback</a>
         </li>
     </ul>
   </div>
 
   <div class="footer__addr">
     <h1 class="footer__logo">Connect with Us</h1>
-    <a href="#"><i class="fa-brands fa-facebook-f facebook-icon"></i></a><a href="#"><i class="fa-brands fa-twitter icon"></i></a>
+    <a href="https://www.facebook.com/DisneyPlusHotstar"><i class="fa-brands fa-facebook-f facebook-icon"></i></a><a href="https://twitter.com/DisneyPlusHS"><i class="fa-brands fa-twitter icon"></i></a>
   </div>
   
   <div class="legal">
@@ -53,9 +53,9 @@ return (<footer class="footer">
         </li>
         <li>
         <p>
-            <a href="#">Terms of Use</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">FAQ</a>
+            <a href="https://www.hotstar.com/tnc/in">Terms of Use</a>
+            <a href="https://www.hotstar.com/privacy-policy/in">Privacy Policy</a>
+            <a href="https://help.hotstar.com/in/en/support/home">FAQ</a>
         </p>
         </li>
     </ul>

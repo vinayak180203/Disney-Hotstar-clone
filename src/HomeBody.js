@@ -76,7 +76,7 @@ export default function HomeBody() {
                      className={ind === activeImageNum ? "currentSlide active" : "currentSlide"}
                      key={ind}
                   >
-                     {ind === activeImageNum && <img src={currentSlide.url} className="image" />}
+                     {ind === activeImageNum && <img alt="movie poster" src={currentSlide.url} className="image" />}
                   </div>
                );
             })}

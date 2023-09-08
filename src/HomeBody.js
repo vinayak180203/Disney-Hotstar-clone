@@ -19,7 +19,7 @@ import NatGeo from "./images/natgeo.png";
 export default function HomeBody() {
    const [movies, setMovies] = useState(null);
    useEffect(() => {
-      fetch('http://localhost:8000/movies')
+      fetch('https://disney-hotstar-data.onrender.com/movies')
       .then(res => {
           return res.json();
       })

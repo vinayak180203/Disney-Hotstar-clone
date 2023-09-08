@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.31f84885.css",
+    "main.js": "/static/js/main.85580d8b.js",
+    "static/js/787.dc22f022.chunk.js": "/static/js/787.dc22f022.chunk.js",
+    "static/media/login-background.jpg": "/static/media/login-background.05b1a1b3088cbb458939.jpg",
+    "static/media/natgeo.png": "/static/media/natgeo.8632d23935ef19622786.png",
+    "static/media/marvel.jpg": "/static/media/marvel.a77beb18bcc99d8e9a6f.jpg",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/star.jpg": "/static/media/star.6628436efb2b6af2a2e8.jpg",
+    "static/media/pixar.jpeg": "/static/media/pixar.9084c055a996a4f41901.jpeg",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/home-background.png": "/static/media/home-background.a0c4bdd961442f1bc8b1.png",
+    "static/media/Image7.jpg": "/static/media/Image7.388d8123049d4dc491d3.jpg",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/disney.jpeg": "/static/media/disney.c97afe5d0f6f9de634d3.jpeg",
+    "static/media/disney+hotstar.png": "/static/media/disney+hotstar.1fa1f501302f679e6221.png",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/Image1.jpg": "/static/media/Image1.0bbdb7af6ec4d5ee3632.jpg",
+    "static/media/pixar.png": "/static/media/pixar.55b65697baf2779a2a73.png",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/starwars.jpg": "/static/media/starwars.183bd990f2623cc23c97.jpg",
+    "static/media/viewers-disney.png": "/static/media/viewers-disney.eb5bab59e7bf29389dc7.png",
+    "static/media/ESPN_PLUS.png": "/static/media/ESPN_PLUS.28670d4b957c7071e073.png",
+    "static/media/marvel.png": "/static/media/marvel.22eb1e824b8ca988cd23.png",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/logo.svg": "/static/media/logo.8205aae82a3c67ca943e8628e2183b0d.svg",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "static/media/Hulu_Logo.svg": "/static/media/Hulu_Logo.4077f6e6da3a34c345f79987c6c16c6d.svg",
+    "index.html": "/index.html",
+    "main.31f84885.css.map": "/static/css/main.31f84885.css.map",
+    "main.85580d8b.js.map": "/static/js/main.85580d8b.js.map",
+    "787.dc22f022.chunk.js.map": "/static/js/787.dc22f022.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31f84885.css",
+    "static/js/main.85580d8b.js"
+  ]
+}

@@ -14,15 +14,9 @@ import Marvel from "./images/marvel.jpg";
 import Pixar from "./images/pixar.jpeg";
 import StarWars from "./images/starwars.jpg";
 import NatGeo from "./images/natgeo.png"; 
-import { useNavigate } from "react-router-dom";
-// import useFetch from './useFetch.js';
+import {Link} from 'react-router-dom';
 
 export default function HomeBody() {
-   const nav = useNavigate();
-   function handleclick(movie){
-     console.log(movie);
-     nav("/home/movieScreen", { state: { results: movie } });
-   }
    const [movies, setMovies] = useState(null);
    useEffect(() => {
       fetch('https://disney-hotstar-data.onrender.com/movies')
@@ -100,7 +94,7 @@ export default function HomeBody() {
         <div className='type'>
         {movies && movies.map((movie) => (
             movie.type === "recommend" ? (
-                  <img className="type-options" src={movie.backgroundImg} alt={movie.title} onClick={() => {handleclick(movie);}}/>
+            <Link to='/home/movieScreen' state={{results: movie}}><img className="type-options" src={movie.backgroundImg} alt={movie.title} /></Link>
             ) : null
          ))}
          </div>
@@ -110,7 +104,7 @@ export default function HomeBody() {
         <div className="type">
         {movies && movies.map((movie) => (
          movie.type === "trending" ? (
-            <img className="type-options" src={movie.backgroundImg} alt={movie.title} onClick={() => {handleclick(movie);}}/>
+            <Link to='/home/movieScreen' state={{results: movie}}><img className="type-options" src={movie.backgroundImg} alt={movie.title} /></Link>
          ) : null
         ))}
         </div>
@@ -120,7 +114,7 @@ export default function HomeBody() {
         <div className="type">
         {movies && movies.map((movie) => (
          movie.type === "new" ? (
-            <img className="type-options" src={movie.backgroundImg} alt={movie.title} onClick={() => {handleclick(movie);}}/>
+            <Link to='/home/movieScreen' state={{results: movie}}><img className="type-options" src={movie.backgroundImg} alt={movie.title} /></Link>
          ) : null
         ))}
         </div>
@@ -130,7 +124,7 @@ export default function HomeBody() {
         <div className="type">
         {movies && movies.map((movie) => (
          movie.type === "original" ? (
-            <img className="type-options" src={movie.backgroundImg} alt={movie.title} onClick={() => {handleclick(movie);}}/>
+            <Link to='/home/movieScreen' state={{results: movie}}><img className="type-options" src={movie.backgroundImg} alt={movie.title} /></Link>
          ) : null
         ))}
         </div>

@@ -94,7 +94,7 @@ export default function HomeBody() {
         <div className='type'>
         {movies && movies.map((movie) => (
             movie.type === "recommend" ? (
-            <Link to='/home/movieScreen' state={{results: movie}}><img className="type-options" src={movie.backgroundImg} alt={movie.title} /></Link>
+            <Link to='/home/movieScreen' state={{results: movie}}><img className="type-options" src={movie.cardImg} alt={movie.title} /></Link>
             ) : null
          ))}
          </div>
@@ -104,7 +104,7 @@ export default function HomeBody() {
         <div className="type">
         {movies && movies.map((movie) => (
          movie.type === "trending" ? (
-            <Link to='/home/movieScreen' state={{results: movie}}><img className="type-options" src={movie.backgroundImg} alt={movie.title} /></Link>
+            <Link to='/home/movieScreen' state={{results: movie}}><img className="type-options" src={movie.cardImg} alt={movie.title} /></Link>
          ) : null
         ))}
         </div>
@@ -114,7 +114,7 @@ export default function HomeBody() {
         <div className="type">
         {movies && movies.map((movie) => (
          movie.type === "new" ? (
-            <Link to='/home/movieScreen' state={{results: movie}}><img className="type-options" src={movie.backgroundImg} alt={movie.title} /></Link>
+            <Link to='/home/movieScreen' state={{results: movie}}><img className="type-options" src={movie.cardImg} alt={movie.title} /></Link>
          ) : null
         ))}
         </div>
@@ -124,7 +124,7 @@ export default function HomeBody() {
         <div className="type">
         {movies && movies.map((movie) => (
          movie.type === "original" ? (
-            <Link to='/home/movieScreen' state={{results: movie}}><img className="type-options" src={movie.backgroundImg} alt={movie.title} /></Link>
+            <Link to='/home/movieScreen' state={{results: movie}}><img className="type-options" src={movie.cardImg} alt={movie.title} /></Link>
          ) : null
         ))}
         </div>
